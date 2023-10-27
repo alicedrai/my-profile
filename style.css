@@ -1,0 +1,145 @@
+body {
+background-color: lightblue;
+ font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2 {
+  
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding: 20px;
+ }
+
+h3 {
+ 	text-align: center;
+ }
+
+p {
+  font-size: 18px;
+line-height: 2.0;
+}
+
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+ul{
+
+list-style-type: none;
+text-align: center;
+line-height: 2.0;
+}
+li{
+	font-size: 18px;
+}
+
+
+
+.contact h2{
+margin-bottom: 40px;
+}
+
+
+
+.circle {
+  width: 250px;
+	height: auto;
+	border-radius: 50%;
+
+}
+.bouton {
+
+	background: lightblue;                         
+	padding: 20px 10px;                             
+	border-radius: 5px;                        
+	  
+	margin: 20px auto;
+	text-align: center;
+	width: 300px;
+}
+.container {
+  width: 900px; 
+  margin: 20px auto; 
+ }
+
+ .flexcontainer {
+ 	width: 900px;
+ 	flex-grow: 1;
+ 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 20px auto;
+ }
+
+.div-clean { 
+	background: white;                        
+	padding: 40px;                             
+	border-radius: 6px;                        
+	box-shadow: 0 10px 30px rgba(0,0,0,0.2);    
+
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.verticalcard { 
+
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	border-radius: 6px;
+	align-items: center;
+  justify-content: space-between;
+  align-content: center;
+	
+	padding: 20px;
+	background-color: white;
+	width: 400px;
+
+	
+}
+
+
+
+.verticalcard h2 {
+  
+  
+  text-align: center;
+  margin: auto 0px;
+}
+
+
+.button{
+display: inline;
+background: transparent;
+width: 80px;
+height: 80px;
+border-radius: 10px;
+margin-left: 10px;
+margin-right: 10px;
+}
+.button:hover{
+background: transparent;
+width: 100px;
+height: 100px;
+border-radius: 10px;
+margin-left: 10px;
+margin-right: 10px;
+}
+.contact {
+	margin-bottom: 50px;
+}
+
+.contact img {
+height: 90px;
+width: 90px;
+border-radius: 6%;
+display: inline;
+}
+
+
+
